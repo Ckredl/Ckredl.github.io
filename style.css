@@ -1,0 +1,73 @@
+html {
+    font-family: "Roboto", sans-serif;
+    background-color: purple;
+    color: green;
+    scroll-behavior: smooth;
+}
+
+input {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    color: rgb(0, 255, 0);
+    background-color: transparent;
+    border: 4px solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    width: 750px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    color: green;
+}
+
+ body {
+    text-align: center;
+    font-size: 70px;
+ }
+
+ a {
+    text-decoration: none;
+    color: #244B12;
+    transition: 0.3s;
+    font-size: 35px;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+a:hover {
+    color: black;
+}
+
+ul {
+    margin-top: 45px;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 130px;
+}
+
+nav {
+    top: 0;
+    padding: 0 85px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+    position: sticky;
+
+}
+
+span {
+    font-family: "Pixelify Sans", sans-serif;
+}
