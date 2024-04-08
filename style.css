@@ -15,6 +15,7 @@ span {
 }
 
 nav {
+    background-color: white;
     position: sticky;
     top: 0;
     padding: 0 85px;
@@ -24,7 +25,26 @@ nav {
     height: 80px;
     box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
     font-size: 20;
-    
+}
+
+nav .Logo,
+footer .Logo{
+    display: flex;
+    align-items: center;
+}
+
+nav .Logo a,
+footer .Logo a {
+    margin-left: 8;
+}
+
+.Logo {
+    width: 100;
+}
+
+nav ul,
+footer .top ul{
+    display: flex;
 }
 
 a {
@@ -42,4 +62,16 @@ a:hover {
 
 li {
     list-style: none;
+}
+
+img {
+    width: 120;
+}
+
+.l1 {
+    margin-right: 25;
+}
+
+.l2 {
+    margin-right: 20;
 }
